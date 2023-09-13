@@ -1,0 +1,65 @@
+
+{
+
+    "name": "dfdf",
+
+    "description": "sttdfsda",
+
+    "repository": "https://github.com/imacekun/cw-dl",
+    "buildpacks":[
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        },
+        {
+            "url": "https://github.com/amivin/aria2-heroku.git"
+        },
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "keywords": [
+
+       
+
+        "telegram bot",
+
+        "pyrogram"
+
+    ],
+
+    "env": {
+
+        "BOT_TOKEN": {
+
+            "description": "5841168818:AAGTDTKHOi8BWYG-SveHsxUPvA2qoRbA6BI"
+
+        },
+
+        "API_ID": {
+
+            "description": "23136983"
+
+        },
+
+        "API_HASH": {
+
+            "description": "f10305215256525bc2b9f2d8a4e9a4ac"
+
+        }
+
+    },
+
+    "buildpacks": [
+
+        {
+
+            "url": "heroku/python"
+
+        },
+       {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+
+    ]
+
+}
